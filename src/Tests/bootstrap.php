@@ -1,7 +1,7 @@
 <?php
 
-require_once './src/Hello.php';
-
+//require_once './src/Hello.php';
+/*
 function loader($class)
 {
     $file = $class . '.php';
@@ -11,3 +11,10 @@ function loader($class)
 }
 
 spl_autoload_register('loader');
+*/
+
+function my_autoloader($class) {
+    require_once './src/' . $class . '.php';
+}
+
+spl_autoload_register('my_autoloader');
