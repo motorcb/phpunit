@@ -1,5 +1,7 @@
 <?php
 
+require_once './src/Hello.php';
+
 function loader($class)
 {
     $file = $class . '.php';
