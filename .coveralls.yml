@@ -1,1 +1,2 @@
-repo_token: OUQKm49o9cXlDAgVKEFSiKNPODAoP6UJq
+repo_token: zNvrhnoupvca1tkFh0jJcC3h0BYcKk5Ob
+gem 'coveralls', require: false
