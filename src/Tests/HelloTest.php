@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Hello.php';
+require_once '../Hello.php';
 
 class HelloTest extends PHPUnit_Framework_TestCase {
 	
